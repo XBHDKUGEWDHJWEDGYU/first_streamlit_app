@@ -3,4 +3,4 @@ import streamlit
 streamlit.title('My Parents New Healthy Shiner')
 
 
-print('a')
+streamlit.text('hard egg')
