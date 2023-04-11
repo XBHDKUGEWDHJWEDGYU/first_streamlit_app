@@ -2,4 +2,6 @@ import streamlit
 
 streamlit.title('My Parents New Healthy Shiner')
 
-streamlit.title('Necklace')
+a=[1 1 0]
+
+print('a')
