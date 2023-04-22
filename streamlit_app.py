@@ -29,3 +29,9 @@ streamlit.text(fruityvice_response)
 streamlit.header("Fruityvice Fruit Advice!")
 
 streamlit.text(fruityvice_response.json())
+
+
+# normalize the json format? 
+fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+# displays data in table format?
+streamlit.dataframe(fruityvice_normalized)
